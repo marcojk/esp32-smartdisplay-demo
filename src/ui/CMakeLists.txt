@@ -1,8 +1,9 @@
 SET(SOURCES screens/ui_scrMain.c
+    screens/ui_scrSettings.c
+    screens/ui_scrRadio.c
     ui.c
     components/ui_comp_hook.c
     ui_helpers.c
-    ui_events.cpp
-    images/ui_img_philips_80x106_png.c)
+    ui_temporary_image.cpp)
 
 add_library(ui ${SOURCES})
